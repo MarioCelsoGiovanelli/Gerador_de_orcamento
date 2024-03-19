@@ -46,8 +46,8 @@ Python script.py
 - Converter tipos de dados
 - Gerar PDF e criar um arquvi PDF
 - Inserir dados no PDF
+- **Python**
+- **Jupyter Nootbook**
 
 ### :books: Bibliotecas:
  **fpdf**
-- **Python**
-- **Jupyter Nootbook**
