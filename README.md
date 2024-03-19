@@ -1,20 +1,21 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-# Gerador de Orçamentos
-Esse código tem como finalidade interagir com o usuário para que ele digite a descrição de seu projeto, as horas estimadas para conclusão desse projeto, o valor da hora trabalhada e o prazo estimado para conclusão.
-Para receber os dados do usuário, utilizamos a função input().
-Os input() são armazenados em variáveis.
+# :abacus: Gerador de Orçamentos
+#### Esse código tem como finalidade interagir com o usuário para que ele digite a descrição de seu projeto, as horas estimadas para conclusão desse projeto, o valor da hora trabalhada e o prazo estimado para conclusão.
+
+Para receber os dados do usuário, utilizamos a função **input()**.
+Os **input()** são armazenados em variáveis.
 ````python
 projeto = input(“Digite a descrição do projeto: ”)
 horas = input(“Digite o total de horas estimadas: ”)
 valor_hora = input(“Digite o valor da hora trabalhada: )
 prazo_estimado = input(“Digite o prazo estimado: ”)
 ````
-Todos os dados que digitamos no input() são tipo string (str) texto, mesmo os números.
-Para calcular o total de horas estimado é necessário converter esse texto para número.
-Para converter número em texto, podemos utilizar a função str().
-Para converter textos em números, podemos utilizar as funções:
-	Int() : para converter em um número inteiro
-	Float() : para converter em um número com casas decimais
+#### Todos os dados que digitamos no **input()** são tipo **string** (str) texto, mesmo os números.
+#### Para calcular o total de horas estimado é necessário converter esse texto para número.
+#### Para converter número em texto, podemos utilizar a função **str()**.
+#### Para converter textos em números, podemos utilizar as funções:
+	**Int()** : para converter em um número inteiro
+	**Float()** : para converter em um número com casas decimais
 
 ````python
 valor_total_estimado = int(horas_estimadas) * int(valor_hora)
@@ -37,12 +38,16 @@ Pdf.output(“orçamento.pdf”)
  
 
 ## 📁 Como utilizar o código:
-O arquivo script.py pode ser usado em um terminal
+O arquivo **script.py** pode ser usado em um terminal
 ````python
 Python script.py
 ````
-## Técnicas e Tecnologias utilizadas:
-### Bibliotecas:
-  fpdf
-- Python
-- Jupyter Nootbook
+## :computer: Técnicas e Tecnologias utilizadas:
+- Converter tipos de dados
+- Gerar PDF e criar um arquvi PDF
+- Inserir dados no PDF
+
+### :books: Bibliotecas:
+ **fpdf**
+- **Python**
+- **Jupyter Nootbook**
