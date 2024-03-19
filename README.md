@@ -35,7 +35,13 @@ Pdf.image(“template.png”, x=0, y=0)
 
 Pdf.output(“orçamento.pdf”)
 ````
- 
+:film_strip:
+
+<img src=".\Animação.gif" alt="Código funcionando" width="600px" heidth="400px">
+
+:film_strip:
+
+<img src=".\Animação2.gif" alt="Código 2 funcionando" width="600px" heidth="400px">
 
 ## 📁 Como utilizar o código:
 O arquivo **script.py** pode ser usado em um terminal
@@ -51,3 +57,4 @@ Python script.py
 
 ### :books: Bibliotecas:
  **fpdf**
+ 
