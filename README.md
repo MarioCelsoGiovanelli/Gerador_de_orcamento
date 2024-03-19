@@ -1,4 +1,4 @@
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Badge Desenvolvido](http://img.shields.io/static/v1?label=STATUS&message=%20DESENVOLVIDO&color=GREEN&style=for-the-badge)
 # :abacus: Gerador de Orçamentos
 #### Esse código tem como finalidade interagir com o usuário para que ele digite a descrição de seu projeto, as horas estimadas para conclusão desse projeto, o valor da hora trabalhada e o prazo estimado para conclusão.
 
@@ -35,7 +35,7 @@ Pdf.image(“template.png”, x=0, y=0)
 
 Pdf.output(“orçamento.pdf”)
 ````
-:film_strip:
+:movie_camera:
 
 <img src=".\Animação.gif" alt="Código funcionando" width="600px" heidth="400px">
 
