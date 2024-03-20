@@ -21,11 +21,11 @@ prazo_estimado = input(“Digite o prazo estimado: ”)
 valor_total_estimado = int(horas_estimadas) * int(valor_hora)
 ````
 
-Para gerar um PDF é necessário instalar a biblioteca fpdf
+Para gerar um PDF é necessário instalar a biblioteca **fpdf**
 ````python
 !pip install fpdf
 ````
-Utilizando o comando fpdf para importar a biblioteca
+Utilizando o comando **fpdf** para importar a biblioteca
 ````python
 From fpdf import FPDF
 ````
@@ -50,10 +50,10 @@ Python script.py
 ````
 ## :computer: Técnicas e Tecnologias utilizadas:
 - Converter tipos de dados
-- Gerar PDF e criar um arquvi PDF
+- Gerar PDF e criar um arquivo PDF
 - Inserir dados no PDF
-- **Python**
-- **Jupyter Nootbook**
+	- **Python**
+	- **Jupyter Notebook**
 
 ### :books: Bibliotecas:
  **fpdf**
